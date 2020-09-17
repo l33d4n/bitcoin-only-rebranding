@@ -106,7 +106,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: 'Quicksand', sans-serif;
+		font-family: 'Quicksand', sans-serif
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -2237,8 +2237,10 @@ input, select, textarea {
 		}
 
 		.icon.major {
+			border: solid 1px;
 			display: inline-block;
 			border-radius: 100%;
+			padding: 0.65em;
 			/* margin: 0 0 2em 0; */
 			margin: 0;
 			cursor: default;
@@ -2610,8 +2612,6 @@ input, select, textarea {
 
 	section.special, article.special {
 		text-align: center;
-			border-top: solid 1px #dddddd;
-
 	}
 
 	header.major {
@@ -2818,7 +2818,6 @@ input, select, textarea {
 					width: 33%;
 					margin-left: 0;
 				}
-
 		}
 
 /* Statistics */
@@ -3716,6 +3715,7 @@ input, select, textarea {
 
 	#wrapper {
 		width: 44em;
+
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
 	}
