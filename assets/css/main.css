@@ -3549,9 +3549,9 @@ input, select, textarea {
 			text-transform: uppercase;
 			color: #F3DE8A;
 			font-family: 'Quicksand', sans-serif;
-			letter-spacing: 0.325rem;
-			width: calc(100% + 0.325rem);
-			font-size: 0.875em;
+			letter-spacing: 0.25rem;
+			width: calc(100% + 0.25rem);
+			font-size: 0.75em;
 			line-height: 1.375;
 			font-weight: 700;
 		}
